@@ -1,3 +1,15 @@
 # Homework 1
 
-Multiplication tabulating
+Generate a multiplication table as follow:
+
+```text
+1x1= 1 2x1= 2 3x1= 3 4x1= 4 5x1= 5 6x1= 6 7x1= 7 8x1= 8 9x1= 9 
+2x2= 4 3x2= 6 4x2= 8 5x2=10 6x2=12 7x2=14 8x2=16 9x2=18 
+3x3= 9 4x3=12 5x3=15 6x3=18 7x3=21 8x3=24 9x3=27 
+4x4=16 5x4=20 6x4=24 7x4=28 8x4=32 9x4=36 
+5x5=25 6x5=30 7x5=35 8x5=40 9x5=45 
+6x6=36 7x6=42 8x6=48 9x6=54 
+7x7=49 8x7=56 9x7=63 
+8x8=64 9x8=72 
+9x9=81
+```
