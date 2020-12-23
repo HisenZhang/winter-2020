@@ -2,7 +2,6 @@
 
 Outline
 
-- Compilation
 - Control Flow
   - for/while
   - if/else
@@ -24,3 +23,5 @@ Outline
   - general
   - declaration
   - return value
+- Compilation
+- Coding Style
