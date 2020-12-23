@@ -6,6 +6,7 @@ Outline
   - pointer nature
   - multi-dimension
     - main's argv
+  - sizeof
 - Memory Address
   - layout
     - stack
