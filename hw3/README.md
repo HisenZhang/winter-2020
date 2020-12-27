@@ -9,6 +9,7 @@ In this practice, set N to 10, 100 and 1000, while M stays 1000.
 You may use your code written during the lecture.
 
 How to generate random number:
+
 ```c++
   /* initialize random seed, call only once */
   srand (time(NULL));
@@ -18,7 +19,8 @@ How to generate random number:
 ```
 
 Sample Output:
-```
+
+```text
 N=10 M=1000 D=16.343
 N=100 M=1000 D=160.343
 N=1000 M=1000 D=1600.343
