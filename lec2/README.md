@@ -1,6 +1,16 @@
 # Lecture 2
 
-Outline
+An closer look at C/C++: How it works?
+
+`memory``array``pointer``address``compilation``assembly`
+
+## Objective
+
+- Learn the memory layout
+- Understand array's pointer nature
+- Function and data type at machine level
+
+## Outline
 
 - Array
   - pointer nature
@@ -19,6 +29,11 @@ Outline
   - parameter
     - const reference
   - function pointer
+- Compilation
+  - pre-processing
+  - compiling
+  - assembly
+  - linking
 - Assembly
   - "-g" debug flag
   - objdump

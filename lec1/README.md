@@ -1,6 +1,16 @@
 # Lecture 1
 
-Outline
+An overview of C/C++: What does it look like?
+
+`syntax``type``output``directives``function``compilation`
+
+## Objective
+
+- Master basic syntax of C++
+- Understand types
+- Function call/declaration/definition
+
+## Outline
 
 - Control Flow
   - for/while
@@ -27,7 +37,9 @@ Outline
 - Function
   - main
   - general
-  - declaration
+  - declaration vs definition
   - return value
 - Compilation
+  - gcc vs. g++
+  - option "-o"
 - Coding Style
