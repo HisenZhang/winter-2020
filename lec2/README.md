@@ -16,11 +16,12 @@ Outline
   - size
   - reference
   - dereference
+  - parameter
+    - const reference
   - function pointer
 - Assembly
   - "-g" debug flag
   - objdump
-  - C++ function naming convention
   - common opcode
     - push/pop
     - mov
