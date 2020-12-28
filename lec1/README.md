@@ -14,10 +14,16 @@ Outline
   - char
   - int
   - bool
-  - float
+  - float/double
+    - machine esp
+  - signed/unsigned
+  - size_t
 - Arithmetic
   - int division
-- Include Directive
+- Directives
+  - include
+  - define(marco)
+    - marco function
 - Function
   - main
   - general
