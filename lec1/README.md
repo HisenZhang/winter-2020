@@ -28,6 +28,8 @@ An overview of C/C++: What does it look like?
     - machine esp
   - signed/unsigned
   - size_t
+  - type cast
+    - implicit
 - Arithmetic
   - int division
 - Directives
