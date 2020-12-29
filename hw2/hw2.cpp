@@ -11,25 +11,40 @@
 #define ROW 6
 #define COL 6
 
-int randomMap()
+char* randomMap(int row, int col)
 {
-char* map ;
+    char* map ;
     srand(6);
-    map = (char *) malloc(ROW * COL *sizeof(char));   
-    for(int i = 0; i < ROW * COL ; i++)
+    map = (char *) malloc(row * col *sizeof(char));
+    for(int i = 0; i < row * col ; i++)
     {
         map[i] = rand() % 256;
-        printf("%4d ", map[i]);
-        if(i != 0 && (i+1) % 6 == 0)
-        {
+    }
+    return map;
+}
+void printMap(char* map, int row, int col)
+{
+    for(int i = 0; i < row * col; i++)
+    {
 
-         printf("\n");
+        if (/* condition */)
+        {
+            /* code */
+        }
+        
+        if(map[i] > map[i-1]
+        && map[i] > map[i+1]
+        && map[i] > map[i-col]
+        && map[i] > map[i+col]
+        && map[i] > map[i-col-1]
+        && map[i] > map[i-col+1]
+        && map[i] > map[i+col-1]
+        && map[i] > map[i+col+1])
+        {
+            int numPeak += 1;
         }
     }
-    free(map);
-    map = NULL;
-
-    return m;
+    return numPeak;
 }
 int main ()
 {
