@@ -49,3 +49,49 @@ An closer look at C/C++: How it works?
     - nop
   - calling convention
   
+## Note
+  
+- Array
+  - pointer nature
+  - multi-dimension
+    - main's argv
+  - sizeof
+- Memory Address
+  - layout
+    - stack
+    - heap
+- Pointer
+  - arithmetic
+  - size
+  - reference
+  - dereference
+  - parameter
+    - const reference
+  - function pointer
+- Compilation
+  - pre-processing
+  - compiling
+  - assembly
+  - linking
+- Assembly
+  - "-g" debug flag
+  - objdump
+  - common opcode
+    - push/pop
+    - mov
+    - call/ret
+    - add/sub
+    - cmp
+    - jmp/je/jne/jg/jl/jge/jle
+    - shl/shr
+    - lea
+    - nop
+  - calling convention
+  
+### mkdir
+
+create a new directory
+
+### touch
+
+create a new file
