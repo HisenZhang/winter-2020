@@ -22,8 +22,9 @@ char* randomMap(int row, int col)
     }
     return map;
 }
-void printMap(char* map, int row, int col)
+int printMap(char* map, int row, int col)
 {
+    int numPeak = 0;
     for(int i = 0; i < row * col; i++)
     {
 
@@ -41,7 +42,7 @@ void printMap(char* map, int row, int col)
         && map[i] > map[i+col-1]
         && map[i] > map[i+col+1])
         {
-            int numPeak += 1;
+            numPeak++;
         }
     }
     return numPeak;
