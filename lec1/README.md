@@ -41,6 +41,7 @@ An overview of C/C++: What does it look like?
   - general
   - declaration vs definition
   - return value
+  - scope
 - Compilation
   - gcc vs. g++
   - option "-o"
